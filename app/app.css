@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  background: var(--background, #ffffff);
+  color: var(--text-default, #12141a);
+}
+
+/* Delete this block once you have a real screen. */
+.placeholder {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  line-height: 1.5;
+}

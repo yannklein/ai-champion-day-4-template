@@ -1,0 +1,15 @@
+/*
+  Your design tokens from Day 3, Exercise 3.
+
+  One line per row of your build brief's Design tokens table, keeping the
+  names you gave them. Nothing else in the app hard-codes a colour: every
+  component reads from here, so changing a value changes it everywhere.
+
+  For example:
+    --background: #FFFFFF;
+    --accent-primary: #2F5BEA;
+    --text-default: #12141A;
+*/
+:root {
+  /* your tokens go here */
+}
