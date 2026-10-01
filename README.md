@@ -17,8 +17,9 @@ Exercise 1 walks through it.
 | `app/tokens.css` | Your Day 3 design tokens, one CSS variable per row | Exercise 1 |
 | `AGENTS.md` | Standing instructions your agent reads every session | Exercise 1 |
 | `convex/schema.ts` | The claims table, from the brief's Data shape section | Exercise 2 |
+| `convex/auth.ts` | The login. The package is installed, nothing is configured | Exercise 2 |
 | `convex/` | Your queries and mutations | Exercises 2, 3 and 5 |
-| `app/` | Your screens | Exercise 3 |
+| `app/` | Your screens | Exercises 2 and 3 |
 | `Dockerfile` | Absent on purpose. Your agent writes it | Exercise 4 |
 
 ## Commands
@@ -38,6 +39,12 @@ real tests, about what your mutations refuse.
 tests typecheck before you have run `npx convex dev` even once. Convex
 rewrites it every time you push a schema or function change, and those
 rewrites get committed along with everything else.
+
+`@convex-dev/auth` and `@auth/core` are installed and deliberately not
+configured. Exercise 2 sets up the login: a `convex/auth.ts`, a
+`convex/http.ts`, the auth tables in your schema, and a sign-in screen. The
+packages ship in the template so that thirty people are not all running
+`npm install` in the same five minutes.
 
 `npm run dev` needs `VITE_CONVEX_URL` to be set, so copy `.env.example` to
 `.env.local` and fill it in from the details your trainer gave you before you
