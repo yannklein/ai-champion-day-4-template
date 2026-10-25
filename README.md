@@ -1,7 +1,7 @@
 # AI Champion, Day 4: app template
 
 The starting point for Day 4 of the AI Champion course. It is a React +
-Convex app with nothing built in it yet, so that your coding agent has a
+Convex app with shadcn/ui set up and nothing built in it yet, so that your coding agent has a
 project to work in from the first prompt instead of spending your afternoon
 scaffolding one.
 
@@ -14,7 +14,9 @@ Exercise 1 walks through it.
 | Path | What it is | Filled in by |
 |---|---|---|
 | `docs/build-brief.md` | Your Day 3 build brief, pasted in as text | Exercise 1 |
-| `app/tokens.css` | Your Day 3 design tokens, one CSS variable per row | Exercise 1 |
+| `app/app.css`, `components.json` | shadcn/ui in its default theme. Your preset from shadcn/create replaces the theme | Exercise 1 |
+| `app/components/ui/` | shadcn/ui components. One button to start; your agent adds the rest | Exercises 1 to 3 |
+| `.agents/skills/` | Absent on purpose. Your agent installs the official shadcn skill | Exercise 1 |
 | `AGENTS.md` | Standing instructions your agent reads every session | Exercise 1 |
 | `convex/schema.ts` | The claims table, from the brief's Data shape section | Exercise 2 |
 | `convex/auth.ts` | The login. The package is installed, nothing is configured | Exercise 2 |

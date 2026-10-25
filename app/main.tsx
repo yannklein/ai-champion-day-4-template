@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 import App from "./App";
-import "./tokens.css";
 import "./app.css";
 
 // VITE_CONVEX_URL is read while the app is BUILT, not while it runs, so it
